@@ -1,53 +1,37 @@
 {
-    "name": "lox-language",
-    "displayName": "Lox Language",
-    "description": "Syntax highlighting for everyone's favorite interpreted learning-language",
-    "version": "0.0.4",
-    "publisher": "dberezin",
-    "author": "dberezin",
-    "icon": "images/CILogo.png",
-    "engines": {
-        "vscode": "^1.24.0"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "lox",
-                "aliases": [
-                    "lox",
-                    "lox"
-                ],
-                "extensions": [
-                    ".lox"
-                ],
-                "configuration": "./language-configuration.json"
-            }
+  "name": "goscript",
+  "displayName": "GoScript Language",
+  "description": "A Dynamically Typed High-Level Language That Emphasizes Readability, Speed, and Functionality",
+  "version": "0.0.5",
+  "publisher": "AJK-13",
+  "author": "AJK-13",
+  "icon": "images/GoScript_Logo.png",
+  "engines": {
+    "vscode": "^1.24.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "goscript",
+        "aliases": [
+          "goscript",
+          "gs"
         ],
-        "grammars": [
-            {
-                "language": "lox",
-                "scopeName": "source.lox",
-                "path": "./syntaxes/lox.tmLanguage.json"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/danman113/lox-language.git"
-    },
-    "keywords": [
-        "lox",
-        "lox-language",
-        "vscode",
-        "vscode-extension",
-        "vscode-language"
+        "extensions": [
+          ".gs"
+        ],
+        "configuration": "./language-configuration.json"
+      }
     ],
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/danman113/lox-language/issues"
-    },
-    "homepage": "https://github.com/danman113/lox-language#readme"
+    "grammars": [
+      {
+        "language": "goscript",
+        "scopeName": "source.goscript",
+        "path": "./syntaxes/goscript.tmLanguage.json"
+      }
+    ]
+  }
 }
