@@ -33,5 +33,10 @@
         "path": "./syntaxes/goscript.tmLanguage.json"
       }
     ]
-  }
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/AJK-13/GoScript-Syntax-Hilighting.git"
+  },
+  "license": "MIT"
 }
